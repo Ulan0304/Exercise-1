@@ -10,17 +10,7 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot  = true
 }
 
-variable "db_name" {
-  type = string
-}
-variable "engine" {
-  type = string
-}
-variable "username" {
-  type = string
-}
-variable "password" {
-  type = string
-}
+
+
 
 
